@@ -234,30 +234,60 @@
             }
         }
 
-        .exercises {
-            height: 300px;
-            width: 50vw;
-            background-color: rgb(46, 77, 136);
-            border-radius: 15px;
-            box-shadow: 0 0 8px rgb(46, 77, 136);
-            display: flex;
-            margin-top: 40px;
-        }
-
         .home-section {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-evenly;
         }
 
-        .exdesc {
+        .home-section h1 {
+            font-size: 40px;
+            color: #11101d;
+            margin: 20px;
+        }
+
+        form{
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-evenly;
-            margin-left: 100px;
-            color: white;
+        }
+
+        .date {
+            width: 600px;
+            height: 25px;
+            font-size: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .title {
+            font-size: 20px;
+            padding: 5px;
+            width: 600px;
+            border-radius: 5px;
+            min-height: 300px;
+        }
+
+        .btn_diary {
+            font-size: 20px;
+            padding: 5px 10px;
+            background-color: #11101D;
+            color: #fff;
+            margin: 15px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .btn_score {
+            font-size: 20px;
+            padding: 5px 10px;
+            background-color: #261d88;
+            color: #fff;
+            margin: 15px;
+            border-radius: 15px;
+            cursor: pointer;
+            border: none;
         }
     </style>
     <div class="sidebar">
@@ -303,6 +333,17 @@
         </ul>
     </div>
     <section class="home-section">
+
+        <h1>Write Diary</h1>
+
+        <form>
+            <input class="date" type="date" id="date" name="date">
+            <textarea class="title" type="text" name="title" placeholder="What things you did today?"></textarea>
+            <button class="btn_diary" id="save">Save</button>
+        </form>
+
+        <button class="btn_score" id="save">Check Happiness score</button>
+        <p class="score">Happiness score: <span id="score"></span></p>
 
     </section>
 
