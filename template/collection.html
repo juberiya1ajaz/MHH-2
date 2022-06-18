@@ -234,30 +234,34 @@
             }
         }
 
-        .exercises {
-            height: 300px;
-            width: 50vw;
-            background-color: rgb(46, 77, 136);
-            border-radius: 15px;
-            box-shadow: 0 0 8px rgb(46, 77, 136);
-            display: flex;
-            margin-top: 40px;
-        }
-
         .home-section {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
         }
 
-        .exdesc {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
-            margin-left: 100px;
-            color: white;
+        .heading {
+            display: grid;
+            place-items: center;
+            padding: 15px;
+            font-size: 40px;
+        }
+
+        .collection {
+            margin: 5px 35px;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .card{
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .card h1{
+            font-size: 16px;
         }
     </style>
     <div class="sidebar">
@@ -303,7 +307,26 @@
         </ul>
     </div>
     <section class="home-section">
+        <h1 class="heading">Daily Diary</h1>
+        <div class="collection">
 
+            <div class="card">
+                <h1>18-06-22</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi explicabo atque accusantium
+                    ratione ipsa fugiat maiores? Totam quibusdam, facilis atque fugit maxime eligendi non, corrupti
+                    numquam, fugiat culpa excepturi commodi?</p>
+                    <p class="score"><b>Happiness Score</b>: 48</p>
+            </div>
+
+            <div class="card">
+                <h1>17-06-22</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi explicabo atque accusantium
+                    ratione ipsa fugiat maiores? Totam quibusdam, facilis atque fugit maxime eligendi non, corrupti
+                    numquam, fugiat culpa excepturi commodi?</p>
+                    <p class="score"><b>Happiness Score</b>: 96</p>
+            </div>
+
+        </div>
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

@@ -302,10 +302,6 @@
             bottom: 0;
         }
 
-        /* span{
-			color: #000 !important;
-			font-size: 16px;
-		} */
         .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
             background: #e0e0e0;
             height: 4px;
@@ -427,9 +423,7 @@
     </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <!-- Bootstrap Link -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <!-- APlayer Jquery link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.1/src/js.cookie.min.js"></script>
@@ -437,16 +431,8 @@
     <script>
         $(".album-poster").on('click', function (e) {
             var dataSwitchId = $(this).attr('data-switch');
-            //console.log(dataSwitchId);
-
-            // and now i use aplayer switch function see
-            ap.list.switch(dataSwitchId); //this is static id but i use dynamic 
-
-            // aplayer play function
-            // when i click any song to play
+            ap.list.switch(dataSwitchId); 
             ap.play();
-
-            // click to slideUp player see
             $("#aplayer").addClass('showPlayer');
         });
 
