@@ -583,16 +583,6 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.1/src/js.cookie.min.js"></script>
 
     <script>
-        function imgsplit() {
-            $("#splitform").append("<input type = 'file' name = 'myfile' id='myfile'>")
-            $("#mos").val('1');
-            $("#myfile").attr('value', '1')
-
-        }
-        function ammsplit() {
-            $("#splitform").append('<input type="text" placeholder="Amount of bill" name="ammount">')
-            $("#mos").attr('value', '2');
-        }
         let sidebar__nav = document.querySelector(".sidebar__nav");
         let closeBtn = document.querySelector("#btn");
         let searchBtn = document.querySelector(".bx-search");
@@ -606,8 +596,6 @@
             sidebar__nav.classList.toggle("open");
             menuBtnChange();
         });
-
-        console.log(Cookies.get('csrftoken'));
 
     </script>
 </body>
