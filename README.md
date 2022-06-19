@@ -4,7 +4,7 @@ For you and us
 
 ## 💡 Inspiration
 
-According to WHO, depression is a common illness worldwide, with an estimated 3.8% of the population affected, including 5.0% among adults and 5.7% among adults older than 60 years. Approximately 280 million people in the world have depression. Depression is different from usual mood fluctuations and short-lived emotional responses to challenges in everyday life. Especially when recurrent and with moderate or severe intensity, depression may become a serious health condition. We focused on developing a feasible solution **Therapy and you** to tackle the Mental health crisis on our scale throughout the brainstorming process. On our website you can check your sentiment using NLP and get suggestive exercise and music . we will also provide you with mental health score with a graphical representation.
+According to WHO, depression is a common illness worldwide, with an estimated 3.8% of the population affected, including 5.0% among adults and 5.7% among adults older than 60 years. Approximately 280 million people in the world have depression. Depression is different from usual mood fluctuations and short-lived emotional responses to challenges in everyday life. Especially when recurrent and with moderate or severe intensity, depression may become a serious health condition. We focused on developing a feasible solution **Therapy and You** to tackle the Mental health crisis on our scale throughout the brainstorming process. On our website you can check your sentiment using NLP and get suggestive exercise and music . we will also provide you with mental health score with a graphical representation.
 
 ## 💻 What it does
 
@@ -50,7 +50,9 @@ We used Auth0 authentication system for LogIn of users because we wanted to make
 - Implementation of Auyth0 and MATLAB.
 - Collaboration with other developers.
 
-## 🚀 What's next for Therapy and you
+## 🚀 What's next for Therapy and You
+- We aim to develop this platform and collaborate with doctors and hospitals to make it a genuine free product that benefits everyone and introduces new features and other enhancements.
 
 - Improving the sentiment analysis model.
 - Deploying the web app.
+- Building a mobile app
