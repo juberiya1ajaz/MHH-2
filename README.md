@@ -47,7 +47,7 @@ We used Auth0 authentication system for LogIn of users because we wanted to make
 - Implementation of Auyth0 and MATLAB.
 - Collaboration with other developers.
 
-## 🚀 What's next for APP NAME
+## 🚀 What's next for Therapy and you
 
 - Improving the sentiment analysis model.
 - Deploying the web app.
