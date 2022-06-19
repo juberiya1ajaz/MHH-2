@@ -1,8 +1,16 @@
-# APP NAME
+# Therapy and You
+For you and us
 
 ## 💡 Inspiration
+According to WHO, depression is a common illness worldwide, with an estimated 3.8% of the population affected, including 5.0% among adults and 5.7% among adults older than 60 years. Approximately 280 million people in the world have depression. Depression is different from usual mood fluctuations and short-lived emotional responses to challenges in everyday life. Especially when recurrent and with moderate or severe intensity, depression may become a serious health condition. We focused on developing a feasible solution  **Therapy and you** to tackle the Mental health crisis on our scale throughout the brainstorming process. On our website you can check your sentiment using NLP and get suggestive exercise and music . we will also provide you with mental health score with a graphical representation.
 
 ## 💻 What it does
+- User can write a daily journal 
+ - Using NLP to check the sentiment 
+- Suggestions of exercise and music according to users' sentiments (Happy, sad, depressed)
+ -If a user is happy for continuous 30 days, they will get rewarded 
+-   A mental health score to check your health
+ - A graphical representation of your mood(Happy, Sad, Depressed) 
 
 ## ⚙️How we built it
 
